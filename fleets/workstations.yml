@@ -70,7 +70,7 @@ controls:
       - paths: ../platforms/macos/declaration-profiles/*.json
       - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
       - path: ../platforms/ios/configuration-profiles/passcode-settings.json 
-        labels_excludes_any:
+        labels_exclude_any:
           - C-Suite
 
   windows_settings:
