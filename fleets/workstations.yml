@@ -71,7 +71,7 @@ controls:
       - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
       - paths: ../platforms/ios/configuration_profiles/passcode-settings.json 
         labels_excludes_any:
-        - C-Suite
+          - C-Suite
 
   windows_settings:
     configuration_profiles:
