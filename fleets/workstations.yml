@@ -46,7 +46,7 @@ controls:
     # enable_end_user_authentication: true
 
   ###########################################################
-  # Configuration profiles
+    Configuration profiles
   #
   # Note: This requires activating MDM in your Fleet instance.
   #
@@ -68,7 +68,7 @@ controls:
   apple_settings:
     configuration_profiles:
       - paths: ../platforms/macos/declaration-profiles/*.json
-      - paths: ../platforms/macos/configuration-profiles/.mobileconfig
+      - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
       - path: ../platforms/ios/configuration-profiles/passcode-settings.json 
         
        
