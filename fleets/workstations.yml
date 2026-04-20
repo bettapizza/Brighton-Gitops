@@ -69,7 +69,7 @@ controls:
     configuration_profiles:
       - paths: ../platforms/macos/declaration-profiles/*.json
       - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
-      - path: ../platforms/ios/configuration-profiles/passcode-settings.json 
+      - path: ../platforms/ios/configuration-profiles/passcode-settings*.json 
         
        
 
