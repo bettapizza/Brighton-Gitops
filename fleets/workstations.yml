@@ -69,6 +69,13 @@ controls:
     configuration_profiles:
       - paths: ../platforms/macos/declaration-profiles/*.json
       - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
+
+  apple_settings:
+    confguration_profiles: 
+    - path: ../platforms/ios/confguration_profiles/passcode-settings.json 
+      labels_excludes-any:
+        - C-Suite
+
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
