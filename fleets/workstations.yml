@@ -96,7 +96,6 @@ controls:
   #   • https://fleetdm.com/guides/enforce-os-updates
   ###########################################################
   #
-  controls: 
     macos_updates:
       deadline: "2030-04-01"
       minimum_version: "26.0"
