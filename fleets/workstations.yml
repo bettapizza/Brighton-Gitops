@@ -70,7 +70,7 @@ controls:
       - paths: ../platforms/macos/declaration-profiles/*.json
       - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
       - paths: ../platforms/ios/configuration_profiles/passcode-settings.json 
-        labels_excludes-any:
+        labels_excludes_any:
         - C-Suite
 
   windows_settings:
@@ -158,6 +158,7 @@ policies:
   - paths: ../platforms/macos/policies/*.yml
   - paths: ../platforms/windows/policies/*.yml
   - paths: ../platforms/linux/policies/*.yml
+
 
 ###########################################################
 # Software available for install
