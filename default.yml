@@ -19,9 +19,10 @@ org_settings:
     host_expiry_window: 30
   org_info:
   org name:  wordlord intl
-  webhook_settings: activities_webhook:
-  enable_activities_webhook: true
-  destination_url: https://webhook.site/d2dd7eee-5d86-46cf-9b04-e971bf1f4c42
+  webhook_settings: 
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/d2dd7eee-5d86-46cf-9b04-e971bf1f4c42
     ###########################################################
     # The name of your organization is displayed to end users
     # during the setup experience for new hardware, and to admins
