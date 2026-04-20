@@ -68,7 +68,7 @@ controls:
   apple_settings:
     configuration_profiles:
       - paths: ../platforms/macos/declaration-profiles/*.json
-    
+      - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
       - path: ../platforms/ios/configuration-profiles/passcode-settings.json 
         
        
@@ -158,7 +158,7 @@ reports:
 policies:
   - paths: ../platforms/macos/policies/*.yml
   - paths: ../platforms/windows/policies/*.yml
- # - paths: ../platforms/linux/policies/*.yml
+  - paths: ../platforms/linux/policies/*.yml
 
 
 ###########################################################
