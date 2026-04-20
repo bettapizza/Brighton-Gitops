@@ -193,10 +193,3 @@ software:
 
   app_store_apps: # Apps to install via VPP from the macOS App Store, if any
     # …
-controls: 
-  apple_settings:
-    configuration_profiles:
-      - path: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
-    labels_include_all:
-        - Department - Engineering     
-  :
