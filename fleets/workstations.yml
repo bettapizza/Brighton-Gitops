@@ -46,7 +46,7 @@ controls:
     # enable_end_user_authentication: true
 
   ###########################################################
-    Configuration profiles
+  configuration profile:
   #
   # Note: This requires activating MDM in your Fleet instance.
   #
