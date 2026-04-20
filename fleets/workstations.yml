@@ -72,7 +72,7 @@ controls:
 
   apple_settings:
     confguration_profiles: 
-    - path: ../platforms/ios/confguration_profiles/passcode-settings.json 
+    - path: ../platforms/ios/configuration_profiles/passcode-settings.json 
       labels_excludes-any:
         - C-Suite
 
