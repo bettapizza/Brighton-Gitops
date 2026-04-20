@@ -18,7 +18,7 @@ org_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
   org_info:
-    org name:  wordlord intl
+    org_name:  wordlord intl
   webhook_settings: 
     activities_webhook:
       enable_activities_webhook: true
