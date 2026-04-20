@@ -97,9 +97,9 @@ controls:
   ###########################################################
   #
     macos_updates:
-      deadline: "2030-04-01"
-      minimum_version: "26.0"
-  #   update_new_hosts: true
+      deadline: "2026-07-30"
+      minimum_version: "26.4"
+  #update_new_hosts: true
   # windows_updates:
   #   deadline_days: 7
   #   grace_period_days: 2
