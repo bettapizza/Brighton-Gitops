@@ -35,8 +35,8 @@ if compgen -G "$FLEET_GITOPS_DIR"/fleets/*.yml > /dev/null; then
   ! perl -nle 'print $1 if /^name:\s*(.+)$/' "$FLEET_GITOPS_DIR"/fleets/*.yml | sort | uniq -d | grep . -cq
 fi
 
-if [ ! -f "$profile_file" ]; then
-  echo "Warning: Profile file not found: $profile_file"
+if [ ! -f "$disable-bluetooth-file-sharing.mobileconfig" ]; then
+  echo "Warning: Profile file not found: $disable-bluetooth-file-sharing.mobileconfig"
   continue
 fi
 
