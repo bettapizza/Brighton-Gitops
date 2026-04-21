@@ -59,7 +59,7 @@ jobs:
           # will have to take action to restore MDM functionality (due
           # to the way Apple's device management protocol works.)
           ###########################################################
-          FLEET_URL: ${{ secrets.FLEET_URL && secrets.FLEET_URL || 'https://fleet.example.com' }}
+          FLEET_URL: ${{ secrets.FLEET_URL && secrets.FLEET_URL || 'https://fleet-5qtq.onrender.com' }}
 
           ###########################################################
           # A Fleet API token that your CI/CD builds will use
