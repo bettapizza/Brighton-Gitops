@@ -36,7 +36,14 @@ if compgen -G "$FLEET_GITOPS_DIR"/fleets/*.yml > /dev/null; then
 fi
 
 if [ ! -f "$FLEET_GITOPS_DIR/disable-bluetooth-file-sharing.mobileconfig" ]; then
-  echo "Warning: Profile file not found: $disable-bluetooth-file-sharing.mobileconfig"
+  # Current (broken)
+if [ ! -f "$FLEET_GITOPS_DIR/disable-bluetooth-file-sharing.mobileconfig" ]; then
+  echo "Warning: Profile file not found: $FLEET_GITOPS_DIR/disable-bluetooth-file-sharing.mobileconfig"
+  exit 1
+fi
+
+# Fixed
+echo "Warning: Profile file not found: $FLEET_GITOPS_DIR/disable-bluetooth-file-sharing.mobileconfig"
   continue
 fi
 
