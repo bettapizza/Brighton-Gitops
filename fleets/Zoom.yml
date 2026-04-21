@@ -1,0 +1,12 @@
+url: https://zoom.us/client/latest/ZoomInstallerIT.packages
+
+name: "Zoom"
+controls:
+  # Add your Zoom fleet controls here
+software:
+  # Add your Zoom fleet software here
+org_settings:
+  # Add organization settings here
+post_install_script:
+  path: ../script/zoom-config.sh
+  
