@@ -35,6 +35,11 @@ if compgen -G "$FLEET_GITOPS_DIR"/fleets/*.yml > /dev/null; then
   ! perl -nle 'print $1 if /^name:\s*(.+)$/' "$FLEET_GITOPS_DIR"/fleets/*.yml | sort | uniq -d | grep . -cq
 fi
 
+if [ ! -f "$profile_file" ]; then
+  echo "Warning: Profile file not found: $profile_file"
+  continue
+fi
+
 args=()
 if [ -f "$FLEET_GLOBAL_FILE" ]; then
 	args=(-f "$FLEET_GLOBAL_FILE")
