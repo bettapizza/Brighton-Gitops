@@ -4,4 +4,4 @@ software:
   packages:
     - url: https://zoom.us/client/latest/ZoomInstallerIT.pkg
       post_install_script:
-        path: ../scripts/zoom-config.sh
+        path: ../platforms/macos/scripts/zoom-config.sh
