@@ -46,7 +46,7 @@ controls:
       # … e.g.
       # - path: ../lib/ios/declaration-profiles/Passcode settings.json
       # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
-      - path: ../platforms/ios/configuration_profiles/passcode-settings.json 
+      #- path: ../platforms/ios/configuration_profiles/passcode-settings.json 
        # labels_exclude_any:
        #  - name: C-Suite
 
