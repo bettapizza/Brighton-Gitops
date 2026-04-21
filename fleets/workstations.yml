@@ -18,7 +18,7 @@ name: "💻 Workstations"
 controls:
   setup_experience:
     apple_setup_assistant: ../platforms/macos/enrollment-profiles/automatic-enrollment.dep.json
-    enable_end_user_authentication: true
+    # enable_end_user_authentication: true
     ###########################################################
     # Configure the macOS setup experience
     #
