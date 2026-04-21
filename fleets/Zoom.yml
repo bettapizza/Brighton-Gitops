@@ -1,12 +1,7 @@
-url: https://zoom.us/client/latest/ZoomInstallerIT.pkg
-post_install_script:
-  path: ../scripts/zoom-config.sh
-
-
 name: Zoom
 
 software:
   packages:
-    - path: ../software/Zoom.pkg
-      self_service: true
-      install_during_setup: false
+    - url: https://zoom.us/client/latest/ZoomInstallerIT.pkg
+      post_install_script:
+        path: ../scripts/zoom-config.sh
