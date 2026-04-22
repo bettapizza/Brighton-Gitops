@@ -46,6 +46,7 @@ jobs:
         # alongside any other environment variables mentioned in your .yml files.
         env:
           FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true 
         
           ###########################################################
           # The server URL where Fleet is running.
