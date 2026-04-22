@@ -45,6 +45,7 @@ jobs:
         # These environment variables can be set as repository secrets,
         # alongside any other environment variables mentioned in your .yml files.
         env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
         
           ###########################################################
           # The server URL where Fleet is running.
